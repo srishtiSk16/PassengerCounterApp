@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href = "index.css">
-
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<h1>People Entered</h1>
-<h2 id="count">0</h2>
-<!-- Increment button -->
-<button id="increment-btn">INCREMENT</button>
-<script >
-    src="index.js"
-</script>
-
+<h1>People entered:</h1>
+<h2 id="count-el">0</h2>
+<button id="increment-btn" onclick="increment()">INCREMENT</button>
+<button id="save-btn" onclick="save()">SAVE</button>
+<p id="save-el">Previous entires: </p>
+<script src="index.js"></script>
 </body>
 </html>
+
